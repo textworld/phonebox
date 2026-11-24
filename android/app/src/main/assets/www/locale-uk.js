@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Завантаження…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Лише ця категорія (її категорія в налаштуваннях; порожньо = усі)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Сеанси Claude Code / Codex / Cursor / OpenCode / Antigravity: працює, очікує, неактивний.",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Мітки пристроїв (назва = мітка, по одній на рядок)",
       "Device volume": "Гучність пристрою",
       "Dictation": "Диктування",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Синхронний текст пісні",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Текст пісні, що грає на комп’ютері, з підсвіченим рядком, який співають. Коли пошук увімкнено, агент запитує текст у LRCLIB (безкоштовно, без облікового запису).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Шукати тексти в LRCLIB (надсилає назву, виконавця, альбом і тривалість треку)",

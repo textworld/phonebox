@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "불러오는 중…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "이 분류만 (설정의 분류, 비우면 전체)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex / Cursor / OpenCode / Antigravity 세션: 작업, 대기, 유휴.",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "장치 라벨(이름 = 라벨, 줄당 하나)",
       "Device volume": "장치 볼륨",
       "Dictation": "독해",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "싱크 가사",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "컴퓨터에서 재생 중인 노래의 가사를, 부르는 줄을 강조해 보여 줍니다. 찾기를 켜면 에이전트가 LRCLIB(무료, 계정 불필요)에 가사를 요청합니다.",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "LRCLIB에서 가사 찾기(곡 제목, 아티스트, 앨범, 길이를 보냄)",

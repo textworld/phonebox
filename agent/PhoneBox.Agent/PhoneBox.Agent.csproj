@@ -15,6 +15,9 @@
     <Description>PhoneBox desktop agent: feeds the PhoneBox Android desk panel over USB or Wi-Fi.</Description>
     <Version>0.9.29</Version>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <!-- the release packaging expects the published agent as one file: sqlite's e_sqlite3 goes into the bundle,
+         next to the .NET runtime, instead of a loose dylib beside the executable -->
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
   </PropertyGroup>
 
   <PropertyGroup Condition="$(TargetFramework.Contains('-windows'))">

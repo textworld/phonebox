@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "読み込み中…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "このカテゴリのみ（設定でのカテゴリ。空欄 = すべて）",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex / カーソル / OpenCode / Antigravity セッション: 作業中、待機中、無効",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "デバイスラベル (名前=ラベル、1 行あたり 1 つ)",
       "Device volume": "デバイスボリューム",
       "Dictation": "ディクテーション",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "同期歌詞",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "コンピューターで再生中の曲の歌詞を、歌われている行を強調して表示します。検索をオンにすると、エージェントが LRCLIB（無料、アカウント不要）に歌詞を問い合わせます。",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "LRCLIB で歌詞を検索（曲名、アーティスト、アルバム、長さを送信）",

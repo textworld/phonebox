@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Načítá se…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Jen tato kategorie (její kategorie v Nastavení; prázdné = všechny)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Relace Claude Code / Codex / Cursor / OpenCode / Antigravity: pracující, čekající, nečinný.",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Štítky zařízení (název = štítek, jeden na řádek)",
       "Device volume": "Objem zařízení",
       "Dictation": "Diktát",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Synchronizovaný text písně",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Text písně, která hraje na počítači, se zvýrazněným zpívaným řádkem. Se zapnutým hledáním si agent vyžádá text z LRCLIB (zdarma, bez účtu).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Hledat texty na LRCLIB (posílá název, interpreta, album a délku skladby)",

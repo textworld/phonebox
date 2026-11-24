@@ -455,6 +455,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Wird geladen…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Nur diese Kategorie (ihre Kategorie in den Einstellungen; leer = alle)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex / Cursor / OpenCode / Antigravity-Sitzungen: arbeiten, warten, im Leerlauf.",
       "1": "1",
@@ -631,6 +632,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Gerätebeschriftungen (Name = Label, eine pro Zeile)",
       "Device volume": "Gerätevolumen",
       "Dictation": "Diktat",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Synchronisierte Songtexte",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Der Text des Songs, der auf dem Computer läuft; die gesungene Zeile wird beim Abspielen hervorgehoben. Mit eingeschalteter Suche fragt der Agent LRCLIB (kostenlos, ohne Konto) nach dem Text.",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Songtexte bei LRCLIB suchen (sendet Titel, Künstler, Album und Länge des Titels)",
@@ -1891,6 +1893,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Chargement…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Seulement cette catégorie (sa catégorie dans les réglages ; vide = toutes)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Sessions Claude Code / Codex / Cursor / OpenCode / Antigravity: en cours, en attente, inactif.",
       "1": "1",
@@ -2067,6 +2070,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Étiquettes d'appareil (nom = label, une par ligne)",
       "Device volume": "Volume de l'appareil",
       "Dictation": "Dictée",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Paroles synchronisées",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Les paroles du morceau joué sur l’ordinateur, la ligne chantée mise en valeur pendant la lecture. Recherche activée, l’agent demande les paroles à LRCLIB (gratuit, sans compte).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Chercher les paroles sur LRCLIB (envoie le titre, l’artiste, l’album et la durée du morceau)",
@@ -3327,6 +3331,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Cargando…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Solo esta categoría (su categoría en Ajustes; vacío = todas)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Sesiones de Claude Code / Codex / Cursor / OpenCode / Antigravity: en funcionamiento, esperando, inactivo.",
       "1": "1",
@@ -3503,6 +3508,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Etiquetas de dispositivos (nombre = etiqueta, una por línea)",
       "Device volume": "Volumen del dispositivo",
       "Dictation": "Dictado",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Letras sincronizadas",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "La letra de la canción que suena en el ordenador, con la línea que se canta resaltada mientras suena. Con la búsqueda activada, el agente pide la letra a LRCLIB (gratis, sin cuenta).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Buscar letras en LRCLIB (envía título, artista, álbum y duración de la pista)",
@@ -4763,6 +4769,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Caricamento…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Solo questa categoria (la sua categoria nelle Impostazioni; vuoto = tutte)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Sessioni Claude Code / Codex / Cursor / OpenCode / Antigravity: in esecuzione, in attesa, inattivi.",
       "1": "1",
@@ -4939,6 +4946,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Etichette del dispositivo (nome = etichetta, una per riga)",
       "Device volume": "Volume del dispositivo",
       "Dictation": "Dettatura",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Testi sincronizzati",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Il testo del brano in riproduzione sul computer, con la riga cantata evidenziata durante l’ascolto. Con la ricerca attiva, l’agente chiede il testo a LRCLIB (gratuito, senza account).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Cerca i testi su LRCLIB (invia titolo, artista, album e durata del brano)",
@@ -6199,6 +6207,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "A carregar…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Só esta categoria (a sua categoria nas Definições; vazio = todas)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Sessões Claude Code / Codex / Cursor / OpenCode / Antigravity: em funcionamento, esperando, ocioso.",
       "1": "1",
@@ -6375,6 +6384,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Etiquetas de dispositivos (nome = etiqueta, uma por linha)",
       "Device volume": "Volume do dispositivo",
       "Dictation": "Ditado",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Letras sincronizadas",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "A letra da música que toca no computador, com a linha cantada destacada durante a reprodução. Com a pesquisa ligada, o agente pede a letra ao LRCLIB (gratuito, sem conta).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Procurar letras no LRCLIB (envia título, artista, álbum e duração da faixa)",
@@ -7674,6 +7684,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Laden…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Alleen deze categorie (de categorie in Instellingen; leeg = alle)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex / Cursor / OpenCode / Antigravity sessies: werken, wachten, inactief.",
       "1": "1",
@@ -7850,6 +7861,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Apparaatlabels (naam = label, één per regel)",
       "Device volume": "Volume van het apparaat",
       "Dictation": "Dicteren",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Gesynchroniseerde songteksten",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "De tekst van het nummer dat op de computer speelt, met de gezongen regel uitgelicht tijdens het afspelen. Met zoeken aan vraagt de agent de tekst aan LRCLIB (gratis, geen account).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Songteksten opzoeken bij LRCLIB (stuurt titel, artiest, album en lengte van het nummer)",
@@ -9110,6 +9122,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Wczytywanie…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Tylko ta kategoria (jej kategoria w Ustawieniach; puste = wszystkie)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Sesje Claude Code / Codex / Cursor / OpenCode / Antigravity: praca, oczekiwanie, bezczynność.",
       "1": "1",
@@ -9286,6 +9299,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Etykiety urządzeń (nazwa = etykieta, jedna na wiersz)",
       "Device volume": "Objętość urządzenia",
       "Dictation": "Dyktando",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Zsynchronizowany tekst",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Tekst utworu grającego na komputerze, z wyróżnionym śpiewanym wierszem. Z włączonym wyszukiwaniem agent pobiera tekst z LRCLIB (za darmo, bez konta).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Szukaj tekstów w LRCLIB (wysyła tytuł, wykonawcę, album i długość utworu)",
@@ -10546,6 +10560,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Загрузка…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Только эта категория (её категория в настройках; пусто = все)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Сеансы Claude Code / Codex / Cursor / OpenCode / Antigravity: работающие, ожидающие, неактивные.",
       "1": "1",
@@ -10722,6 +10737,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Метки устройств (название = метка, по одной на строку)",
       "Device volume": "Объем устройства",
       "Dictation": "Диктовка",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Синхронный текст песни",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Текст песни, играющей на компьютере, с подсветкой исполняемой строки. При включённом поиске агент запрашивает текст в LRCLIB (бесплатно, без аккаунта).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Искать тексты в LRCLIB (отправляет название, исполнителя, альбом и длительность трека)",
@@ -12666,6 +12682,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "正在加载…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "仅此分类（设置中的分类；留空 = 全部）",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex 光标 OpenCode / Antigravity 会话:工作,等待,闲置。",
       "1": "1",
@@ -12842,6 +12859,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "设备标签(名称=标签,每行一个)",
       "Device volume": "裝置容量",
       "Dictation": "口述",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "同步歌词",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "电脑上正在播放的歌曲歌词，播放时高亮正在演唱的那一行。开启查找后，代理会向 LRCLIB（免费、无需账户）请求歌词。",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "在 LRCLIB 查找歌词（发送曲名、艺术家、专辑和时长）",

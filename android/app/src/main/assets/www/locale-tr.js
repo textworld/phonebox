@@ -421,6 +421,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Yükleniyor…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Yalnızca bu kategori (Ayarlar'daki kategorisi; boş = tümü)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex / Cursor / OpenCode / Antigravity oturumları: çalışma, bekleme, boş.",
       "1": "1",
@@ -597,6 +598,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Cihazın etiketleri (ad = etiket, satır başına bir)",
       "Device volume": "Cihazın sesi",
       "Dictation": "Diktat",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Senkron şarkı sözleri",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Bilgisayarda çalan şarkının sözleri; söylenen satır çalarken vurgulanır. Arama açıkken ajan sözleri LRCLIB’den ister (ücretsiz, hesap gerekmez).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Sözleri LRCLIB’de ara (parçanın başlığını, sanatçısını, albümünü ve süresini gönderir)",

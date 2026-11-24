@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "กำลังโหลด…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "เฉพาะหมวดหมู่นี้ (หมวดหมู่ในการตั้งค่า; ว่าง = ทั้งหมด)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "วาระงาน Claude Code / Codex / เคลื่อนเคอร์เซอร์ / OpenCode / Antigravity: ทำงาน, คอย, ไม่มีกิจกรรม",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "แท็กอุปกรณ์ (ชื่อ=แท็ก, หนึ่งในแต่ละบรรทัด)",
       "Device volume": "ระดับเสียงของอุปกรณ์",
       "Dictation": "การอ่านคำพูด",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "เนื้อเพลงซิงก์",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "เนื้อเพลงของเพลงที่เล่นอยู่บนคอมพิวเตอร์ พร้อมไฮไลต์บรรทัดที่กำลังร้อง เมื่อเปิดการค้นหา เอเจนต์จะขอเนื้อเพลงจาก LRCLIB (ฟรี ไม่ต้องมีบัญชี)",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "ค้นหาเนื้อเพลงใน LRCLIB (ส่งชื่อเพลง ศิลปิน อัลบั้ม และความยาว)",

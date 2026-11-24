@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "正在載入…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "僅此分類（設定中的分類；留空 = 全部）",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex 光標 OpenCode / Antigravity 會話 ： 工作 ， 等待 ， 空閒 。",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "裝置標籤 (名稱=標籤, 每行一個)",
       "Device volume": "裝置音量",
       "Dictation": "聽寫",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "同步歌詞",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "電腦上正在播放的歌曲歌詞，播放時醒目顯示正在演唱的那一行。開啟尋找後，代理程式會向 LRCLIB（免費、不需帳號）要求歌詞。",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "在 LRCLIB 尋找歌詞（傳送曲名、演出者、專輯和長度）",

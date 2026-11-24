@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "लोड हो रहा है…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "केवल यह श्रेणी (सेटिंग्स में इसकी श्रेणी; खाली = सभी)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex / कर्सर / OpenCode / Antigravity सत्र: कार्यरत, प्रतीक्षारत, निष्क्रिय.",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "उपकरण लेबल (नाम = लेबल, प्रति पंक्ति एक)",
       "Device volume": "उपकरण आवाज़",
       "Dictation": "डिक्टेशन",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "सिंक किए गए गीत के बोल",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "कंप्यूटर पर चल रहे गाने के बोल, गाई जा रही पंक्ति को उभारकर दिखाते हुए। खोज चालू होने पर एजेंट LRCLIB (मुफ़्त, बिना खाते के) से बोल माँगता है।",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "LRCLIB पर बोल खोजें (गाने का नाम, कलाकार, एल्बम और अवधि भेजता है)",

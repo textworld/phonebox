@@ -986,10 +986,12 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
     },
     "catalog": {
       "and": "و",
+      "MiniMax": "MiniMax",
       "never": "أبدًا",
       "default": "افتراضي",
       "ok": "نجاح",
       "info": "معلومات",
+      "OpenCode Go": "OpenCode Go",
       "Su": "أحد",
       "Sa": "سبت",
       "Fr": "جمع",

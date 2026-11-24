@@ -985,6 +985,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "s.cd.plexLoading": "Memuat…"
     },
     "catalog": {
+      "MiniMax": "MiniMax",
       "Only this category (its category in Settings; empty = all)": "Hanya kategori ini (kategorinya di Pengaturan; kosong = semua)",
       "Claude Code / Codex / Cursor / OpenCode / Antigravity sessions: working, waiting, idle.": "Claude Code / Codex / Cursor / OpenCode / Antigravity sesi: bekerja, menunggu, diam.",
       "1": "1",
@@ -1161,6 +1162,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Device labels (name = label, one per line)": "Label perangkat (nama = label, satu per baris)",
       "Device volume": "Volume perangkat",
       "Dictation": "Diktasi",
+      "OpenCode Go": "OpenCode Go",
       "Synced lyrics": "Lirik tersinkron",
       "The words of the song playing on the computer, the line being sung lit as it plays. With the lookup on, the agent asks LRCLIB (free, no account) for them.": "Lirik lagu yang diputar di komputer, dengan baris yang sedang dinyanyikan disorot. Saat pencarian aktif, agen meminta lirik ke LRCLIB (gratis, tanpa akun).",
       "Look up lyrics on LRCLIB (sends the track's title, artist, album and length)": "Cari lirik di LRCLIB (mengirim judul, artis, album, dan durasi lagu)",

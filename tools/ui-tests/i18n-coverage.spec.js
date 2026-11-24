@@ -106,6 +106,7 @@ test('the settings page shows no English left in Vietnamese, with every section 
   const leftoversKept = englishLeftovers(texts, [
     'Control Deck', 'PhoneBox', 'Spotify', 'Claude', 'Codex', 'GitHub', 'OBS Studio', 'Home Assistant',
     'Discord', 'Antigravity', 'Tailscale', 'Windows', 'macOS', 'Linux', 'Android', 'WebView',
+    'OpenCode Go', 'MiniMax',
     'Windows Terminal', 'File Explorer (args: folder)', 'Task Manager', 'AppID', 'PowerShell',
     'JSON', 'HTTPS', 'USB', 'Wi-Fi', 'MIDI', 'OSC', 'SPA', 'CodexBar', 'radio-browser.info',
     'SoundVolumeView', 'xdotool', 'wtype', 'soffice', 'POWERPNT', 'VS Code', 'Strip[0].Gain',
