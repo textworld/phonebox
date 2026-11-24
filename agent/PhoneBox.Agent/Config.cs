@@ -672,7 +672,7 @@ public sealed partial class ConfigStore(string path)
         c.Weather.Unit = WeatherUnitJsonConverter.Normalize(c.Weather.Unit);
         c.Weather.Model = WeatherModelJsonConverter.Normalize(c.Weather.Model);
         c.CodexBar ??= new();
-        c.CodexBar.Providers = (c.CodexBar.Providers ?? []).Where(p => p is "claude" or "codex" or "antigravity").Distinct().ToArray();
+        c.CodexBar.Providers = (c.CodexBar.Providers ?? []).Where(p => p is "claude" or "codex" or "antigravity" or "opencode" or "minimax").Distinct().ToArray();
         c.CodexBar.PageSize = Math.Clamp(c.CodexBar.PageSize, 0, 6);
         c.CodexBar.RotateInterval = Math.Clamp(c.CodexBar.RotateInterval, 2, 300);
         c.Night ??= new();

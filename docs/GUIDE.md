@@ -171,6 +171,16 @@ provides it; CLI reports without plan metadata keep the neutral Antigravity titl
 quotas through `GetUserStatus`; unavailable measurements are skipped, and weekly limits are never invented. Refresh
 failures retain the last measurements with an error.
 
+**OpenCode Go quotas** are read with the Go key OpenCode itself stores on this computer (`opencode.db`, integration
+"opencode-go" — connect Go in OpenCode with `/connect` and keep it signed in). The agent asks OpenCode's
+`zen/go/v1/usage` for the rolling 5-hour, weekly and monthly usage and never sends the key anywhere else; a
+self-hosted console URL saved with the sign-in is honoured. No key or no usage windows means no card.
+
+**MiniMax quotas** need the M Plan API key (`sk-cp-…`): set the `MINIMAX_API_KEY` environment variable for the
+agent, or sign in to MiniMax in OpenCode (`/connect`), whose configuration the agent reads. The agent asks the
+documented plan-usage endpoint for the shared text-model bucket's 5-hour window and the weekly window; the service
+region (mainland or global) is taken from the configured base URL first and remembered once it answers.
+
 Tap an AI session to see its model, timing and token details. Token counters describe the local session rather than
 the account allowance. Prompt/response text and tool arguments are not included in this panel data.
 

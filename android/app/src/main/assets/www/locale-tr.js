@@ -1384,6 +1384,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Waiting…": "Bekleniyor...",
       "Week ": "Hafta ",
       "Weekly": "Haftalık",
+      "Monthly": "Aylık",
       "Wet": "Sıcak",
       "Window Layouts": "Pencere Yapılandırmaları",
       "Workflow Runner": "İş Akış YöneticisiComment",

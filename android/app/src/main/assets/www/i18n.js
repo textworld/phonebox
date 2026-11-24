@@ -11996,6 +11996,7 @@
       'Osc Pad': 'Pad OSC',
       '5-hour session': 'Sessão de 5 horas',
       'Weekly': 'Semanal',
+      'Monthly': 'Mensal',
       '5-hour': '5 horas',
       '{n}-hour': '{n} horas',
       '{n}-day': '{n} dias',

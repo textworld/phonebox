@@ -1960,6 +1960,7 @@ window.PhoneBoxLocaleData = Object.assign(window.PhoneBoxLocaleData || {}, {
       "Waiting…": "Menanti...",
       "Week ": "Minggu ",
       "Weekly": "Mingguan",
+      "Monthly": "Bulanan",
       "Wet": "Wet",
       "Window Layouts": "Tata Letak Jendela",
       "Workflow Runner": "Workflow Runner",

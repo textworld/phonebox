@@ -47,6 +47,8 @@
   <ItemGroup>
     <!-- QR codes for pairing a phone over Wi-Fi (settings page) -->
     <PackageReference Include="QRCoder" Version="1.9.0" />
+    <!-- reads the OpenCode Go sign-in out of OpenCode's local database (read-only SELECT) -->
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.15" />
   </ItemGroup>
 
   <ItemGroup>

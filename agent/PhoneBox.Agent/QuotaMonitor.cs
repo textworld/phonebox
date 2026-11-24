@@ -210,12 +210,19 @@ public sealed partial class QuotaMonitor(ConfigStore config, ILogger<QuotaMonito
     {
         var now = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         var external = _external;
-        var core = new[] { "claude", "codex", "antigravity" }
+        var core = new[] { "claude", "codex", "antigravity", "opencode", "minimax" }
             .Select(id => id == "codex" ? CodexSnapshot(now, external.FirstOrDefault(p => p.Id == id))
-                : CodexBar.Select(id == "claude" ? _claude : _antigravity, external.FirstOrDefault(p => p.Id == id), now))
+                : CodexBar.Select(id switch
+                {
+                    "claude" => _claude,
+                    "antigravity" => _antigravity,
+                    "opencode" => _opencode,
+                    "minimax" => _minimax,
+                    _ => null,
+                }, external.FirstOrDefault(p => p.Id == id), now))
             .OfType<QuotaProvider>();
         var extra = external
-            .Where(p => p.Id is not ("claude" or "codex" or "antigravity"))
+            .Where(p => p.Id is not ("claude" or "codex" or "antigravity" or "opencode" or "minimax"))
             .Select(p => CodexBar.Select(null, p, now))
             .OfType<QuotaProvider>();
         return core.Concat(extra).Select(p => Rolled(p, now)).ToList();
@@ -426,6 +433,18 @@ public sealed partial class QuotaMonitor(ConfigStore config, ILogger<QuotaMonito
             {
                 var ok = await RefreshAntigravity(ct);
                 _nextAntigravity = Environment.TickCount64 + (ok ? 60_000 : 30_000);
+            }
+
+            if (Environment.TickCount64 >= _nextOpenCode)
+            {
+                var ok = await RefreshOpenCodeAsync(ct);
+                _nextOpenCode = Environment.TickCount64 + (ok ? OpenCodeIntervalMs : 60_000);
+            }
+
+            if (Environment.TickCount64 >= _nextMiniMax)
+            {
+                var ok = await RefreshMiniMaxAsync(ct);
+                _nextMiniMax = Environment.TickCount64 + (ok ? MiniMaxIntervalMs : 60_000);
             }
 
             try { await ClaudeTickAsync(DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(), ct); }

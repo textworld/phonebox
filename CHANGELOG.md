@@ -148,11 +148,18 @@ screen share and a read-only chat, Plex queue and playlists, a Steam library and
 - Quotas: a CodexBar poll that fails for a moment (Cursor's session can't be read from the background on macOS) no
   longer blanks the Cursor ring; the last good reading stays for up to 6 hours, without limits that have reset since,
   and a refresh polls CodexBar again at once (#398, [ajaybali9](https://github.com/ajaybali9)).
+- Quotas: native OpenCode Go usage (the rolling 5-hour, weekly and monthly windows, read with the Go sign-in saved
+  in OpenCode's local database) and native MiniMax M Plan usage (the shared text-model bucket's 5-hour window and
+  the weekly window, read with the key from `MINIMAX_API_KEY` or OpenCode's configuration) join Claude, Codex and
+  Antigravity as local sources; both are selectable in **Settings › General › AI quotas & CodexBar**, in the quota
+  widget and the quota ring.
 - Linux: the cover art of music playing in Chrome, Brave, Edge or Chromium shows on the phone. These browsers save it
   to a temporary file with no image extension, which the agent refused (#427, #428,
   [sanjai4334](https://github.com/sanjai4334)).
 
 **Android app**
+- Quota cards and rings: OpenCode Go and MiniMax have their own colours and marks, and the "Monthly" window label
+  is translated in every language.
 - A request to the agent that fails (a timeout, a dropped cable) now closes its connection at once instead of
   leaving it for the garbage collector. On Android 6 each one also held two pipes until then, and the system's TLS
   code stops the app once 1024 are open; this may be behind the crashes in #389

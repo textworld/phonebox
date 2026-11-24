@@ -531,10 +531,10 @@ body.offline .offline-msg { display: flex; }
 .q-dial .pace { stroke: rgba(255, 255, 255, .85); stroke-width: 2.5; stroke-linecap: round; }
 .q-pct { position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: flex; align-items: center; justify-content: center; font-size: min(10cqh, 28px); font-weight: 500; letter-spacing: -0.02em; }
 .q-pct small { font-size: .45em; color: var(--muted); margin-left: 1px; }
-.q-label { font-size: 12px; font-weight: 600; margin-top: 5px; text-align: center; white-space: nowrap; }
+.q-label { font-size: 12px; font-weight: 600; margin-top: 5px; text-align: center; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
 .q-left { font-size: 11px; font-weight: 650; color: #86efac; text-align: center; }
-.q-reset { font-size: 11px; color: var(--muted); text-align: center; white-space: nowrap; }
-.q-pace { font-size: 11px; margin-top: 2px; text-align: center; white-space: nowrap; color: var(--muted); }
+.q-reset { font-size: 11px; color: var(--muted); text-align: center; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.q-pace { font-size: 11px; margin-top: 2px; text-align: center; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; color: var(--muted); }
 .q-pace.fast { color: #fbbf24; }
 .q-pace.over { color: #f87171; }
 .q-pace.calm { color: #86efac; }

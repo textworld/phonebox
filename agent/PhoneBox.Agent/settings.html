@@ -858,6 +858,8 @@ nav a.on::before { color: var(--accent); }
             <label class="check"><input type="checkbox" id="cb_claude"> Claude</label>
             <label class="check"><input type="checkbox" id="cb_codex"> Codex</label>
             <label class="check"><input type="checkbox" id="cb_antigravity"> Antigravity</label>
+            <label class="check"><input type="checkbox" id="cb_opencode"> OpenCode Go</label>
+            <label class="check"><input type="checkbox" id="cb_minimax"> MiniMax</label>
           </div>
         </div>
         <div class="field" style="margin-top:10px">
@@ -3653,16 +3655,17 @@ function bindForm() {
 }
 
 function bindCodexBar() {
+  const ids = ['claude', 'codex', 'antigravity', 'opencode', 'minimax'];
   cfg.codexBar ??= { providers: ['claude', 'codex', 'antigravity'], rotate: true, pageSize: 2, rotateInterval: 8 };
   if (cfg.codexBar.rotate === undefined) cfg.codexBar.rotate = true;
   const provs = Array.isArray(cfg.codexBar.providers) ? cfg.codexBar.providers : ['claude', 'codex', 'antigravity'];
-  ['claude', 'codex', 'antigravity'].forEach((id) => {
+  ids.forEach((id) => {
     const el = $('cb_' + id);
     if (!el) return;
     el.checked = provs.includes(id);
     el.onchange = () => {
       const cur = Array.isArray(cfg.codexBar.providers) ? cfg.codexBar.providers : [];
-      const next = ['claude', 'codex', 'antigravity'].filter((x) => x === id ? el.checked : cur.includes(x));
+      const next = ids.filter((x) => x === id ? el.checked : cur.includes(x));
       if (!next.length) { el.checked = true; toast(t('s.js.keepOneAi'), true); return; }
       cfg.codexBar.providers = next;
       changed();
